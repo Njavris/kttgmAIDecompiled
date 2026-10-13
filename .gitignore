@@ -1,0 +1,18 @@
+# build artifacts
+obj-sdl/
+obj-headless/
+kttgm
+kttgm-headless
+*.o
+*.a
+
+# regenerable reference output (make disasm)
+kttgm.asm
+kttgm.json
+chr.bin
+
+# headless test output
+*.ppm
+*.wav
+
+__pycache__/
